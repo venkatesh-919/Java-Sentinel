@@ -13,8 +13,9 @@ jobs:
       # Step 2: Check if README exists
       - name: Look for README
         run: |
-          if [ -f "README.md" ]; then
-            echo "✅ README.md exists!"
+          if [ -f "README1.md" ]; then
+            echo "✅ README1.md exists!"
           else
-            echo "❌ No README.md found"
+            echo "❌ No README1.md found"
           fi
+
