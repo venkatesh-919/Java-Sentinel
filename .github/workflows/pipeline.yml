@@ -18,4 +18,10 @@ jobs:
           else
             echo "❌ No README1.md found"
           fi
+      - name: create file
+        run: |
+          touch sample.txt
+          ls
+         
+
 
