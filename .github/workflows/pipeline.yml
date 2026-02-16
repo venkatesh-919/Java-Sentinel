@@ -1,6 +1,8 @@
 name: Check README
 
 on: [push]
+  schedule:
+    - cron: '0 9,21 * * *'
 
 jobs:
   check-readme:
@@ -28,6 +30,7 @@ jobs:
           ls
           
          
+
 
 
 
