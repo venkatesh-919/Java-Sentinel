@@ -29,9 +29,17 @@ jobs:
           mkdir key
           ls
           echo ${{ secrets.password }}
+  verify-readme:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: new job
+        run: |
+          pwd
+          ls -al
           
           
          
+
 
 
 
