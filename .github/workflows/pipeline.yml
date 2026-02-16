@@ -2,7 +2,10 @@ name: Check README
 
 on: [push]
   schedule:
-    - cron: '0 11,23:30 * * *'
+    - cron: '0 11 * * *'
+    - cron: '30 23  * * *'
+  schedule:
+    - corn: '0 9 1 * *'
 
 
 
@@ -41,6 +44,7 @@ jobs:
           
           
          
+
 
 
 
