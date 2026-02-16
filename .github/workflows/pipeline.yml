@@ -22,6 +22,12 @@ jobs:
         run: |
           touch sample.txt
           ls
+      - name: make a floder 
+        run: |
+          mkdir key
+          ls
+          
          
+
 
 
